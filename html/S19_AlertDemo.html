@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>警告框</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-info">
+            info
+        </div>
+        <div class="alert alert-success">
+            success
+        </div>
+        <div class="alert alert-danger">
+            danger
+        </div>
+        <div class="alert alert-warning">
+            warning
+        </div>
+
+        <div class="alert alert-warning">
+            <!-- 警告按钮上要增加data-dismiss="alert" 触发 JavaScript 动作，同时使用<button>元素，以确保在所有设备上都能获得正确的行为响应。 -->
+            <button type="button" class="close" data-dismiss="alert"><span aria-disabled="true">&times;</span></button>
+            <strong>Hello Word</strong>
+        </div>
+        <div class="alert alert-warning">
+            如有问题请致电:
+            <a href="#" class="alert-link">
+                12369
+            </a>
+        </div>
+    </div>
+</body>
+</html>

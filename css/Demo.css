@@ -1,0 +1,204 @@
+h1,p,a,h3,button{
+    font-family: inherit;
+}
+/* 导航 */
+.side-nav{
+    position: fixed;
+    top: 45%;
+    right: 50px;
+    z-index: 1;
+}
+.nav-side{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.nav-side li{
+    display: block;
+    line-height: 1em;
+    margin: 0;
+    padding: 10px 0;
+}
+.nav-side li a{
+    display: block;
+    text-decoration: none;
+    background: #e2e2e2;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+/* 第一页 */
+.onePage{
+    height: 700px;
+}
+.onePage-bg{
+    height: 750px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+#onePagebg{
+    background-image: url(../img/宇宙.jpg);
+}
+.title-text{
+    margin-left: 50px;
+}
+.headFontSize h1{
+    margin-top: 200px;
+    line-height: 75px;
+    font-size: 50pt;
+    color: #ffffff;
+}
+.headFontSize p{
+    margin-top: 25px;
+    line-height: 20px;
+    color: #ffffff;
+}
+/* 第二页 */
+.twoPage-title{
+    width: 100%;
+    text-align: center;
+}
+.twoPage-title h1{
+    margin: 100px 0 20px 0;
+    letter-spacing: 2px;
+}
+.twoPage .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.twoPage-movie{
+    float: left;
+    padding: 0 2px 0 2px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.twoPage-movie a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.classIcon h3{
+    margin-top: 120px;
+    color: blue;
+}
+.classIcon h1{
+    color: #ffffff;
+}
+.classIcon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    opacity: 0;
+}
+.classIcon:hover{
+    background: #269abc;
+    opacity: 0.5;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+.twoPageBtn{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.twoPageBtn .btn-lg{
+    font-size: 25px;
+}
+#twoPage-more{
+    margin: 25px 0 40px 0;
+}
+/* 第三页 */
+.threePage{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+.threePage-bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#threePageBg{
+    background-image: url(../img/1490105739872.jpg);
+}
+.threePageContent{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.threePageText{
+    color: #ffffff;
+}
+.threePageBtn{
+    margin-top: 600px;
+}
+/* 第四页 */
+.fourPage{
+    height: 700px;
+    background-image: url("../img/宇宙.jpg");
+    margin-top: 850px;
+    margin-bottom: 40px;
+}
+.fourPageText{
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+.fourPageText p {
+    margin-top: 10px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+/* 第五页 */
+.fivePageBg{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+#fivePage-bg{
+    background-image: url("../img/11.jpg");
+}
+.fivePageText{
+    margin-top: 50px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+.fivePageContent{
+    margin-top: 80px;
+    text-align: center;
+}
+.fivePageImg{
+    width: 100%;
+    height: 200px;
+
+}
+.fivePageImg:hover{
+    border: 2px solid #5bc0de;
+}
+.fivePageBtn{
+    margin-top: 50px;
+    text-align: center;
+}
+.fivePageBtnText{
+    margin-top: 20px;
+}

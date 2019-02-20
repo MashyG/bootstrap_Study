@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>栅格-GridDemo</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .row{
+            margin-bottom: 20px;
+        }
+        .row .row{
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        [class*="col-"]{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #eee;
+            background-color: rgba(86,61,124,.15);
+            border: 1px solid #ddd;
+            border: 1px solid rgba(86,61,124,.2);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    最多12列，多则换行
+    <div class="row">
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+        <div class="col-md-1">col-md-1</div>
+    </div>
+    一个占三格
+    <div class="row">
+        <div class="col-md-3">col-md-3</div>
+        <div class="col-md-3">col-md-3</div>
+        <div class="col-md-3">col-md-3</div>
+        <div class="col-md-3">col-md-3</div>
+    </div>
+    一个占很多内容则高度自适应
+    <div class="row">
+        <div class="col-md-3">col-md-3col-md-3col-md-3col-md-3col-md-3col-md-3col-md-3
+            col-md-3col -md-3col-md-3col-md-3col-md-3col-md-3col-md-3col-md-3col-md-3co</div>
+        <div class="col-md-3">col-md-3</div>
+        <div class="col-md-3">col-md-3</div>
+        <div class="col-md-3">col-md-3</div>
+    </div>
+    设置栅格位置
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1">col-md-4</div>
+    </div>
+    栅格嵌套
+    <div class="row">
+        <div class="col-sm-9">
+            first
+            <div class="row">
+                <div class="col-xs-8">
+                    first->one
+                </div>
+                <div class="col-xs-4">
+                    first->two
+                </div>
+            </div>
+        </div>
+    </div>
+    排序
+    <div class="row">
+        <div class="col-md-9">col-md-9</div>
+        <div class="col-md-3">col-md-3</div>
+
+        <div class="col-md-9 col-md-push-3">col-md-9</div>
+        <div class="col-md-3 col-md-pull-9">col-md-3</div>
+    </div>
+</div>
+</body>
+</html>

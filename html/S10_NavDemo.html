@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航-NavDemo</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <ul id="mytab" class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="">home</a></li>
+            <li role="presentation"><a href="">hello</a></li>
+            <li role="presentation" class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                    world
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"><a role="menuitem" href="">word1</a></li>
+                    <li role="presentation"><a role="menuitem" href="">word2</a></li>
+                    <li role="presentation"><a role="menuitem" href="">word3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+        $("#mytab a").click(function (e) {
+            e.preventDefault();
+            $(this).tab("show");
+        });
+    </script>
+</body>
+</html>
